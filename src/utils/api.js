@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: `${process.env.REACT_APP_BACKEND_URL}/api`,  //기본적으로 자동 호출
+  baseURL: `${process.env.REACT_APP_BACKEND_PROXY}/api`,  //기본적으로 자동 호출
   headers: {
     "Content-Type": "application/json",
   },
